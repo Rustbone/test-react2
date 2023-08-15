@@ -8,7 +8,7 @@ export const MyModal = ({ closeModal }) => {
         <CrossIcon />
       </button>
       <div className="modal__title">Добавлено в избранное</div>
-      <Link to="/favorites" className="modal__link">
+      <Link to="/test-react2/favorites" className="modal__link">
         Перейти в избранное
       </Link>
     </div>

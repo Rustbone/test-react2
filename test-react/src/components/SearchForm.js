@@ -9,7 +9,7 @@ export const SearchForm = () => {
 
   const handleFormSubmite = (event) => {
     event.preventDefault();
-    navigate(`/search-results?searchText=${searchText}`);
+    navigate(`/test-react2/search-results?searchText=${searchText}`);
   };
 
   const handleSearchTextChange = (event) => {

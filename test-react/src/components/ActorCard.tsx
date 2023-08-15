@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from 'react'
 
 export type TActorsCardProps = {
   id: string;
@@ -8,7 +9,7 @@ export type TActorsCardProps = {
 
 export function ActorCard({ id, imgSrc, name }: TActorsCardProps) {
   return (
-    <Link to={`/actor?id=${id}`} className="actor-card">
+    <Link to={`/test-react2/actor?id=${id}`} className="actor-card">
       <img
         alt={name}
         src={imgSrc === "" ? "./assets/images/actor-placeholder.jpg" : imgSrc}

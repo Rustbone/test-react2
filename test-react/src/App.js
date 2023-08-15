@@ -13,11 +13,11 @@ export default function App() {
   return (
     <ThemeProvider>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search-results" element={<SearchResults />} />
-        <Route path="/actor" element={<Actor />} />
-        <Route path="/movie" element={<Movie />} />
-        <Route path="/favorites" element={<Favorites />} />
+        <Route path="/test-react2/" element={<Home />} />
+        <Route path="/test-react2/search-results" element={<SearchResults />} />
+        <Route path="/test-react2/actor" element={<Actor />} />
+        <Route path="/test-react2/movie" element={<Movie />} />
+        <Route path="/test-react2/favorites" element={<Favorites />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </ThemeProvider>

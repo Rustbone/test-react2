@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const MovieCard = ({ title, year, coverSrc, id }) => {
   return (
-    <Link to={`/movie?id=${id}`} className="movie-card">
+    <Link to={`/test-react2/movie?id=${id}`} className="movie-card">
       <div className="movie-card-cover">
         <img
           src={

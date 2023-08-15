@@ -11,12 +11,12 @@ export function Header() {
   return (
     <header>
       <div className="container header">
-        <a href="/" className="header__logo">
+        <a href="/test-react2/" className="header__logo">
           <BrandIcon />
         </a>
         <ul className="header__navigation">
           <li className="header__navigation-item">
-            <a href="/">
+            <a href="/test-react2/">
               <SearchIcon />
             </a>
           </li>
@@ -26,7 +26,7 @@ export function Header() {
             </button>
           </li>
           <li className="header__navigation-item">
-            <a href="/favorites">
+            <a href="/test-react2/favorites">
               <BookmarkIcon />
             </a>
           </li>
